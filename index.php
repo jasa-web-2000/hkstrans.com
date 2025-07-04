@@ -1,17 +1,18 @@
 <?php
 
-$domain = 'http://localhost/travel/hkstrans.com/';
-// $domain = 'https://hkstrans.com/';
+// $domain = 'http://localhost/travel/hkstrans.com/';
+$domain = 'https://hkstrans.com/';
 $brand = 'HKS Trans';
 $logo = 'src/img/logo.png';
 $logoPanjang = 'src/img/logo.png';
-$title = $brand . " - Travel Madura Jawa Timur PP";
-$desc = $brand . " menawarkan jasa Travel Madura Jawa Timur PP dengan harga murah dan door to door";
-$telp = '0823-3811-7731';
-// $telp2 = '0858-2179-2395';
-$alamat = 'Jl. Kowel Jaya, RT.002/RW.003, Kowel, Kec. Pamekasan, Kabupaten Pamekasan, Jawa Timur';
+$title = $brand . " - Travel Banyumas Purbalingga Jabodetabek PP";
+$desc = $brand . " menawarkan jasa Travel Banyumas Purbalingga Jabodetabek PP dengan harga murah dan door to door";
+$telp = '0895-1970-1457';
+// $telp2 = '+62 895-1970-1457';
+$alamat = 'Banjaranyar, Kec. Sokaraja, Kab. Banyumas, Jawa Tengah';
 
-$iframe = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.9252904119267!2d113.4865392!3d-7.1346381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd9d70045c95939%3A0xccf7cdbd3981d254!2sPutra%20agam%20trans!5e0!3m2!1sid!2sid!4v1751612598685!5m2!1sid!2sid';
+$iframe = 'https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d31650.564929030832!2d109.323569!3d-7.429728!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwMjUnNDcuMCJTIDEwOcKwMTknMzQuMSJF!5e0!3m2!1sid!2sus!4v1751626169160!5m2!1sid!2sus';
+
 
 
 function res_telp($telp)
@@ -148,20 +149,20 @@ $rute = [
 
 $kota = [
   [
-    'Madura',
-    'madura.jpg',
+    'Banyumas',
+    'banyumas.jpg',
   ],
   [
-    'Pamekasan',
-    'pamekasan.jpg',
+    'Jakarta',
+    'jakarta.jpg',
   ],
   [
-    'Surabaya',
-    'surabaya.jpg',
+    'Depok',
+    'depok.jpg',
   ],
   [
-    'Banyuwangi',
-    'banyuwangi.jpg',
+    'Cikarang',
+    'cikarang.jpg',
   ],
 ];
 
@@ -516,8 +517,7 @@ $galeri = [
         <div class="text-center inner-container">
           <h2 class="line-h2">Rute <?= $brand ?></h2>
           <p class="desc">
-            Pesan travel anda segera dan dapatkan berbagai promo menarik
-            khusus untuk hari ini!
+            <?= $desc; ?>
           </p>
         </div>
         <div
